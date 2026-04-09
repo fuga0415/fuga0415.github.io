@@ -1,0 +1,65 @@
+/* 全体のリセットと基本設定 */
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fa; /* GitHubっぽい背景色 */
+    color: #24292e;
+}
+
+/* ヘッダーのデザイン */
+header {
+    background-color: #24292e;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+}
+
+header p {
+    margin: 0;
+    color: #8b949e;
+}
+
+/* メインコンテンツのレイアウト */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* 各セクション（白い箱）のデザイン */
+section {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    border: 1px solid #e1e4e8;
+}
+
+h2 {
+    border-bottom: 2px solid #e1e4e8;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* リンクのデザイン */
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* フッターのデザイン */
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #6a737d;
+}
